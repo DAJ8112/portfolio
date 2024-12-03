@@ -1,0 +1,11 @@
+prefix=/root/koding/eteml/section1
+exec_prefix=/root/koding/eteml/section1
+libdir=/root/koding/eteml/section1/lib
+includedir=/root/koding/eteml/section1/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

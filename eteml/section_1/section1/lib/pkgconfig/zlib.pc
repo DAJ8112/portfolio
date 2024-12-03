@@ -1,0 +1,13 @@
+prefix=/root/koding/eteml/section1
+exec_prefix=/root/koding/eteml/section1
+libdir=/root/koding/eteml/section1/lib
+sharedlibdir=/root/koding/eteml/section1/lib
+includedir=/root/koding/eteml/section1/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

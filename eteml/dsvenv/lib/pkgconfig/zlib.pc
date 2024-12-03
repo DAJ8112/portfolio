@@ -1,0 +1,13 @@
+prefix=/root/koding/eteml/dsvenv
+exec_prefix=/root/koding/eteml/dsvenv
+libdir=/root/koding/eteml/dsvenv/lib
+sharedlibdir=/root/koding/eteml/dsvenv/lib
+includedir=/root/koding/eteml/dsvenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
